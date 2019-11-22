@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="display-4 text-center">Weight Converter</h1>
+                <h1 class="display-4 text-center mb-3">Weight Converter</h1>
                 <form>
                     <div class="form-group">
                         <input 
@@ -24,15 +24,31 @@
                     </div>
                 </form>
                 <div id="output">
-                    <div class="card">
-                        <div class="card-block">
+                    <div class="card bg-primary mb-2">
+                        <div class="card-body">
                             <h3>Grams:</h3>
                             <div id="gramsOutput"></div>
                         </div>
                     </div>
+
+                    <div class="card bg-success mb-2">
+                        <div class="card-body">
+                            <h3>Kilograms:</h3>
+                            <div id="kgOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-2">
+                        <div class="card-body">
+                            <h3>Ounces:</h3>
+                            <div id="ozOutput"></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
